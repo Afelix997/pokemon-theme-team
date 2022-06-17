@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokemon Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" async defer></script>
+  </head>   
+  <body>
+    <div class="d-grid p-5 gap-2 col-3 mx-auto justify-content-center">
+      <button id="input" onclick="getMon()" class="btn btn-primary" >Generate Pokemon Team!</button>
+      <br>
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <h2 id="type"></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row p-4 justify-content-center">
+           <div class="col">
+           <h2 id="first"></h2>
+           <img id="firstImg" src="">
+        </div>
+          <div class="col">
+              <h2 id="second"></h2>
+              <img id="secondImg" src="">
+          </div>
+          <div class="col">
+              <h2 id="third"></h2>
+              <img id="thirdImg" src="">
+          </div>
+          <div class="col">
+              <h2 id="fourth"></h2>
+              <img id="fourthImg" src="">
+          </div>
+          <div class="col">
+              <h2 id="fifth"></h2>
+              <img id="fifthImg" src="">
+          </div>
+          <div class="col">
+              <h2 id="sixth"></h2>
+              <img id="sixthImg" src="">
+          </div>
+      </div>
+  </div>
+
+    
+  </body>
+</html>
